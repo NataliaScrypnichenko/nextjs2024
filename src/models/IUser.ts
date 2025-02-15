@@ -1,5 +1,6 @@
 export interface IUser {
     id: number;
+    password: string;
     name: string;
     username: string;
     email: string;
@@ -8,4 +9,8 @@ export interface IUser {
     website: string;
     company: string;
     avatar: string;
+    role: string;
+    image: string,
+    firstName: string,
+    lastName: string,
 }
