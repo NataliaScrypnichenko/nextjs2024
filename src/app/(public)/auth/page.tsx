@@ -86,7 +86,7 @@ export default function AuthPage() {
                             value={username}
                             onChange={(e) => setUsername(e.target.value)}
                             placeholder="Введіть ваше ім'я"
-
+                            className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md"
                         />
                     </div>
                 )}
@@ -111,7 +111,7 @@ export default function AuthPage() {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder="Введіть ваш пароль"
-                        className="w-full px-4 py-2 mt-2 border border-gray-300 rounded-md"
+                        className="w-full px-4 py-2 mt-2 border-2 border-gray-300 rounded-md"
                     />
                 </div>
 
