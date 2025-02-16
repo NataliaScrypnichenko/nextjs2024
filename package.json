@@ -16,6 +16,7 @@
     "joi": "^17.13.3",
     "react-hook-form": "^7.54.2",
     "@hookform/resolvers": "^4.1.0"
+
   },
   "devDependencies": {
     "typescript": "^5",

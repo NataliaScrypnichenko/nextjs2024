@@ -1,5 +1,6 @@
 export interface IUsers{
 	id: number;
+	name: string;
 	firstName: string;
 	lastName: string;
 	maidenName: string;

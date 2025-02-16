@@ -10,10 +10,10 @@ type Props={children: React.ReactNode;};
 const RecipesLayout = ({children}:Props) => {
     return (
         <div>
+<hr/>
 
-        recipes Layout
     {children}
-
+<hr/>
     </div>
 );
 };

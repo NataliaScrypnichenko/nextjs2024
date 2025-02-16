@@ -47,17 +47,18 @@ export default function UsersPage() {
                     <li key={user.id} className="p-2 border-b">
                         <div className="flex items-center">
                             <img
-                                alt={user.username}
+                                alt={user.firstName}
                                 className="w-8 h-8 rounded-full mr-2"
                             />
-                            <span>{user.username}</span>
+                            <span>{user.firstName}</span>
                         </div>
                         <button
-                            onClick={() => router.push(`/user/${user.id}`)}
+                            onClick={() => router.push(`/users/${user.id}`)}
                             className="mt-2 text-blue-500"
                         >
                             Переглянути деталі
                         </button>
+
                     </li>
                 ))}
             </ul>
